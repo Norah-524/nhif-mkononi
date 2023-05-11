@@ -42,12 +42,14 @@ class _ProfileState extends State<Profile> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        'Welcome,',
+                        'Hello,',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 25.0),
+                            fontStyle: FontStyle.italic,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 25.0),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 8, left: 10),
+                        padding: const EdgeInsets.only(top: 8, left: 40),
                         child: Text(
                           'Loy Sanford',
                           style: TextStyle(
@@ -57,8 +59,7 @@ class _ProfileState extends State<Profile> {
                       Expanded(
                           child: Text(
                         'You can currently access Students package',
-                        style: TextStyle(
-                            color: Colors.purple[300], fontSize: 15.0),
+                        style: TextStyle(color: Colors.indigo, fontSize: 15.0),
                       ))
                     ],
                   )
@@ -86,14 +87,14 @@ class _ProfileState extends State<Profile> {
                     child: Text('Details'),
                     style: ButtonStyle(
                         foregroundColor:
-                            MaterialStateProperty.all<Color>(Colors.purple),
+                            MaterialStateProperty.all<Color>(Colors.indigo),
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.white),
                         shape:
                             MaterialStateProperty.all<RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    side: BorderSide(color: Colors.purple)))),
+                                    side: BorderSide(color: Colors.indigo)))),
                   ),
                 ),
                 SizedBox(
@@ -102,18 +103,20 @@ class _ProfileState extends State<Profile> {
                 SizedBox(
                   width: width * 0.43,
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/visit');
+                    },
                     child: Text('Visits'),
                     style: ButtonStyle(
                         foregroundColor:
-                            MaterialStateProperty.all<Color>(Colors.purple),
+                            MaterialStateProperty.all<Color>(Colors.indigo),
                         backgroundColor:
                             MaterialStateProperty.all<Color>(Colors.white),
                         shape:
                             MaterialStateProperty.all<RoundedRectangleBorder>(
                                 RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    side: BorderSide(color: Colors.purple)))),
+                                    side: BorderSide(color: Colors.indigo)))),
                   ),
                 )
               ],
@@ -130,7 +133,7 @@ class _ProfileState extends State<Profile> {
                       topRight: Radius.circular(25))),
               toolbarHeight: 0.0,
               bottom: TabBar(
-                labelColor: Colors.purple,
+                labelColor: Colors.indigo,
                 unselectedLabelColor: Colors.grey,
                 tabs: [
                   Tab(text: 'BILLS'),

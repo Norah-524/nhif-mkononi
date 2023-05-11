@@ -63,7 +63,7 @@ class PersonalProfileState extends State<PersonalProfile> {
                 fit: BoxFit.cover,
                 width: 100,
                 height: 100,
-                image: AssetImage('assets/nora.JPG'),
+                image: AssetImage('assets/loy.jpeg'),
               ),
             ),
           ),
@@ -71,7 +71,7 @@ class PersonalProfileState extends State<PersonalProfile> {
             height: 24,
           ),
           Text(
-            'Bessie Cooper',
+            'Loy Sanford',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.w600,
@@ -91,8 +91,12 @@ class PersonalProfileState extends State<PersonalProfile> {
           SizedBox(
             height: 24,
           ),
-          _buildSingleRow(
-              title: 'Subscription & payment', icon: FeatherIcons.creditCard),
+          InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, '/demo');
+              },
+              child: _buildSingleRow(
+                  title: 'Demographics', icon: FeatherIcons.creditCard)),
           SizedBox(
             height: 8,
           ),
@@ -108,7 +112,8 @@ class PersonalProfileState extends State<PersonalProfile> {
           SizedBox(
             height: 8,
           ),
-          _buildSingleRow(title: 'Password', icon: FeatherIcons.lock),
+          _buildSingleRow(
+              title: 'Subscription & payment', icon: FeatherIcons.lock),
           SizedBox(
             height: 8,
           ),

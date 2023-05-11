@@ -104,13 +104,8 @@ class _JobPostingState extends State<JobPosting> {
                                     height: 51,
                                     child: ElevatedButton(
                                         onPressed: () async {
-                                          _login();
-                                          // final success = _login();
-                                          // if (!success) {
-                                          //   setState(() {
-                                          //     _loginError = true;
-                                          //   });
-                                          // }
+                                          //_login();
+                                          Navigator.pushNamed(context, '/home');
                                         },
                                         style: ButtonStyle(
                                           shape: MaterialStateProperty.all<

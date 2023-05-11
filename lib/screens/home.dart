@@ -81,38 +81,43 @@ class _OnboardState extends State<Onboard> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          Container(
-                            height: 100,
-                            width: 100,
-                            decoration: BoxDecoration(
-                                color: Colors.grey.shade100,
-                                border: Border.all(
-                                  color: Colors.indigo,
-                                  width: 0.0,
-                                  style: BorderStyle.solid,
-                                ),
-                                borderRadius: BorderRadius.circular(20)),
-                            child: Center(
-                                child: Column(
-                              children: [
-                                SizedBox(
-                                  height: 12,
-                                ),
-                                Icon(
-                                  Icons.medical_services,
-                                  color: Colors.indigo,
-                                  size: 45,
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 8.0),
-                                  child: Text(
-                                    "Services",
-                                    style:
-                                        TextStyle(fontWeight: FontWeight.bold),
+                          InkWell(
+                            onTap: () {
+                              Navigator.pushNamed(context, '/service');
+                            },
+                            child: Container(
+                              height: 100,
+                              width: 100,
+                              decoration: BoxDecoration(
+                                  color: Colors.grey.shade100,
+                                  border: Border.all(
+                                    color: Colors.indigo,
+                                    width: 0.0,
+                                    style: BorderStyle.solid,
                                   ),
-                                ),
-                              ],
-                            )),
+                                  borderRadius: BorderRadius.circular(20)),
+                              child: Center(
+                                  child: Column(
+                                children: [
+                                  SizedBox(
+                                    height: 12,
+                                  ),
+                                  Icon(
+                                    Icons.medical_services,
+                                    color: Colors.indigo,
+                                    size: 45,
+                                  ),
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 8.0),
+                                    child: Text(
+                                      "Services",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
+                                ],
+                              )),
+                            ),
                           ),
                           InkWell(
                             onTap: () async {
@@ -187,7 +192,7 @@ class _OnboardState extends State<Onboard> {
                                   ),
                                   Icon(
                                     FeatherIcons.compass,
-                                    size: 4,
+                                    size: 45,
                                     color: Colors.indigo,
                                   ),
                                   Padding(
@@ -251,7 +256,7 @@ class _OnboardState extends State<Onboard> {
                                     MaterialPageRoute(
                                         builder: (context) => JobPosting()));
                               },
-                              child: Text('Login'),
+                              child: Text('Welcome aboard'),
                               style: ButtonStyle(
                                   overlayColor:
                                       MaterialStateProperty.all<Color>(

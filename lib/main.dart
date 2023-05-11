@@ -1,9 +1,14 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
+import 'package:nhif_app/screens/demog.dart';
 import 'package:nhif_app/screens/home.dart';
 import 'package:nhif_app/screens/loginpage.dart';
 import 'package:nhif_app/screens/personalprofile.dart';
 import 'package:nhif_app/screens/profile.dart';
 import 'package:nhif_app/screens/splashscreen.dart';
+import 'package:nhif_app/screens/services.dart';
+import 'package:nhif_app/screens/visits.dart';
 
 void main() {
   runApp(const MyApp());
@@ -37,6 +42,9 @@ class MyApp extends StatelessWidget {
         '/': (context) => Onboard(),
         '/home': (context) => Profile(),
         '/profile': (context) => PersonalProfile(),
+        '/service': (context) => Services(),
+        '/visit': (context) => MyHomePage(),
+        '/demo': (context) => PInfo(),
       },
     );
   }

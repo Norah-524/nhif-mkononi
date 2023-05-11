@@ -31,7 +31,7 @@ class _PaymentState extends State<Payment> {
                 onPressed: () {},
                 child: Icon(
                   Icons.add,
-                  color: Colors.purple,
+                  color: Colors.indigo,
                 ),
                 style: ButtonStyle(
                     backgroundColor:
@@ -39,7 +39,7 @@ class _PaymentState extends State<Payment> {
                     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                         RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(8.0),
-                            side: BorderSide(color: Colors.purple)))),
+                            side: BorderSide(color: Colors.indigo)))),
               ),
             ),
             BillsTable(),
