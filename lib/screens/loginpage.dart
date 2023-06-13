@@ -161,7 +161,7 @@ class _JobPostingState extends State<JobPosting> {
     final Surname = _passwordController.text;
 
     final response = await http.post(
-      Uri.parse('http://192.168.69.105:8081/api/login'),
+      Uri.parse('http://192.168.9.105:8081/api/login'),
       body: {
         'CardNo': CardNo,
         'Surname': Surname,

@@ -18,8 +18,6 @@ List<SList> memberships = [
 ];
 
 List<SList> Bpacks = [
-  SList(head: 'Consultations'),
-  SList(head: 'Investigations'),
   SList(head: 'Eye and optical services'),
   SList(head: 'Medicines and medical supplies'),
   SList(head: 'Spectacles'),
@@ -33,5 +31,32 @@ List<SList> Bpacks = [
 // Dental and oral health services
 
 List<SList> Apacks = [
-  SList(head: 'Student'),
+  SList(
+      head:
+          '''There are services that have conditions for special approval that require a beneficiary to present a special permit before he or she can enjoy the NHIF benefit cover.'''),
+  SList(head: 'The services that require a special permit include; '),
+  SList(head: 'Cancer chemotherapy for cancer patients'),
+  SList(head: 'Medical and orthopaedic appliances'),
+  SList(head: 'Complex Implants'),
+  SList(head: 'Dentures '),
+  SList(head: 'Radiotherapy service'),
+  SList(
+      head:
+          'Immuno-suppressant medicines for patients, who have organ transplants'),
+  SList(head: 'Reading glasses'),
 ];
+
+
+
+
+
+
+
+
+// Special radiological imaging such as CT scan and MRI
+// Polypropylene-mesh
+// Haemodialysis and erythropoietin for patients with renal failure
+// EMG needle
+// Advanced cardiac services
+// Some selected medicines
+// Orthodontic services

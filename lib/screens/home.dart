@@ -247,8 +247,8 @@ class _OnboardState extends State<Onboard> {
                           SizedBox(
                             width: 10,
                           ),
-                          SizedBox(
-                            width: MediaQuery.of(context).size.width * 0.43,
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
                             child: ElevatedButton(
                               onPressed: () {
                                 Navigator.push(

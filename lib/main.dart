@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:nhif_app/screens/demog.dart';
 import 'package:nhif_app/screens/home.dart';
 import 'package:nhif_app/screens/loginpage.dart';
+import 'package:nhif_app/screens/mstatus.dart';
 import 'package:nhif_app/screens/personalprofile.dart';
 import 'package:nhif_app/screens/profile.dart';
 import 'package:nhif_app/screens/splashscreen.dart';
@@ -45,6 +46,7 @@ class MyApp extends StatelessWidget {
         '/service': (context) => Services(),
         '/visit': (context) => MyHomePage(),
         '/demo': (context) => PInfo(),
+        '/mstat': (context) => MStatus(),
       },
     );
   }

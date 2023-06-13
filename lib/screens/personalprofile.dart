@@ -104,7 +104,12 @@ class PersonalProfileState extends State<PersonalProfile> {
           SizedBox(
             height: 8,
           ),
-          _buildSingleRow(title: 'Membership status', icon: FeatherIcons.user),
+          InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, '/mstat');
+              },
+              child: _buildSingleRow(
+                  title: 'Membership status', icon: FeatherIcons.user)),
           SizedBox(
             height: 8,
           ),
@@ -129,7 +134,12 @@ class PersonalProfileState extends State<PersonalProfile> {
           SizedBox(
             height: 8,
           ),
-          _buildSingleRow(title: 'Logout', icon: FeatherIcons.logOut),
+          InkWell(
+              onTap: () {
+                Navigator.pushNamed(context, '/home');
+              },
+              child:
+                  _buildSingleRow(title: 'Logout', icon: FeatherIcons.logOut)),
         ],
       ),
     );

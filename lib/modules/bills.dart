@@ -59,19 +59,19 @@ class _BillsTableState extends State<BillsTable> {
           DataRow(
             cells: <DataCell>[
               DataCell(Text('1')),
-              DataCell(Text('4667989723456')),
+              DataCell(Text('996798972345')),
               DataCell(Text('50,400')),
               DataCell(Text('Paid')),
-              DataCell(Text('12/3/2019')),
+              DataCell(Text('12/3/2020')),
             ],
           ),
           DataRow(
             cells: <DataCell>[
               DataCell(Text('2')),
-              DataCell(Text('994462345543')),
+              DataCell(Text('99446234554')),
               DataCell(Text('50,400')),
               DataCell(Text('Paid')),
-              DataCell(Text('12/4/2020')),
+              DataCell(Text('12/4/2021')),
             ],
           ),
           DataRow(
@@ -80,7 +80,7 @@ class _BillsTableState extends State<BillsTable> {
               DataCell(Text('9988123427')),
               DataCell(Text('50,400')),
               DataCell(Text('Pending')),
-              DataCell(Text('24/6/2021')),
+              DataCell(Text('24/6/2022')),
             ],
           ),
         ],

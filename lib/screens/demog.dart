@@ -12,7 +12,7 @@ class PInfo extends StatefulWidget {
 }
 
 class _PInfoState extends State<PInfo> {
-  String _name = '';
+  double _name = 0.0;
   double _price = 0.0;
 
   @override
@@ -24,7 +24,7 @@ class _PInfoState extends State<PInfo> {
   Future<void> _fetchName() async {
     try {
       final response = await http.get(Uri.parse(
-          'https://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient?identifier=loy&v=full&limit=10'));
+          'https://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient?identifier=LOY&v=full&limit=10'));
       print('Response status code: ${response.statusCode}');
       print('Response headers: ${response.headers}');
       print('Response body: ${response.body}');
@@ -32,7 +32,7 @@ class _PInfoState extends State<PInfo> {
         final jsonData = json.decode(response.body);
         // patientName = invoices[0]['patient']['name'];
         setState(() {
-          _name = jsonData[0]['patient']['name'];
+          _name = jsonData[0]['person']['age'];
           _price = jsonData[0]["items"][0]["price"];
         });
       } else {
@@ -74,10 +74,6 @@ class _PInfoState extends State<PInfo> {
         Text(
           data!,
           //style: TextStyle(color: Colors.grey),
-        ),
-        Icon(
-          Icons.keyboard_arrow_right,
-          color: Colors.grey,
         ),
       ],
     );
@@ -134,6 +130,14 @@ class _PInfoState extends State<PInfo> {
                         title: 'Weight',
                         icon: Icons.monitor_weight,
                         data: '65'),
+                    SizedBox(
+                      height: 8,
+                    ),
+                    SizedBox(
+                      height: 8,
+                    ),
+                    _buildSingleRow(
+                        title: 'BMI', icon: Icons.scale, data: '20.1 Normal'),
                     SizedBox(
                       height: 8,
                     ),

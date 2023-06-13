@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nhif_app/screens/home.dart';
 import 'package:nhif_app/screens/payment.dart';
 import 'package:nhif_app/screens/personalprofile.dart';
+import 'package:http/http.dart' as http;
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
@@ -11,6 +12,31 @@ class Profile extends StatefulWidget {
 }
 
 class _ProfileState extends State<Profile> {
+  String _name = '';
+
+  // Future<void> _fetchName() async {
+  //   try {
+  //     final response = await http.get(Uri.parse(
+  //         'https://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/billing/invoice?patient=305997de-13b1-4e0e-8ec6-37927c5c7993'));
+  //     print('Response status code: ${response.statusCode}');
+  //     print('Response headers: ${response.headers}');
+  //     print('Response body: ${response.body}');
+  //     if (response.statusCode == 200) {
+  //       final jsonData = json.decode(response.body);
+  //       // patientName = invoices[0]['patient']['name'];
+  //       setState(() {
+  //         _name = jsonData[0]['patient']['name'];
+  //       });
+  //     } else {
+  //       // Handle the error
+  //       print('Failed to load name');
+  //     }
+  //   } catch (e) {
+  //     // Handle the exception
+  //     print('Exception occurred: $e');
+  //   }
+  // }
+
   @override
   Widget build(BuildContext context) {
     var onPressed;
@@ -136,8 +162,8 @@ class _ProfileState extends State<Profile> {
                 labelColor: Colors.indigo,
                 unselectedLabelColor: Colors.grey,
                 tabs: [
-                  Tab(text: 'BILLS'),
-                  Tab(text: 'VISITS'),
+                  Tab(text: ' PAYMENT'),
+                  Tab(text: ' '),
                 ],
               ),
             ),

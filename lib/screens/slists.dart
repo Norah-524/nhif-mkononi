@@ -16,7 +16,10 @@ class Members extends StatelessWidget {
             itemCount: memberships.length,
             itemBuilder: (BuildContext context, int index) {
               return ListTile(
-                title: Text(memberships[index].head),
+                title: Text(
+                  memberships[index].head,
+                  textAlign: TextAlign.justify,
+                ),
               );
             }),
       ),
@@ -39,7 +42,11 @@ class Benefit extends StatelessWidget {
             itemCount: Bpacks.length,
             itemBuilder: (BuildContext context, int index) {
               return ListTile(
-                title: Text(Bpacks[index].head),
+                leading: Icon(Icons.arrow_forward_ios),
+                title: Text(
+                  Bpacks[index].head,
+                  textAlign: TextAlign.justify,
+                ),
               );
             }),
       ),
@@ -62,7 +69,10 @@ class Additional extends StatelessWidget {
             itemCount: Apacks.length,
             itemBuilder: (BuildContext context, int index) {
               return ListTile(
-                title: Text(Apacks[index].head),
+                title: Text(
+                  Apacks[index].head,
+                  textAlign: TextAlign.justify,
+                ),
               );
             }),
       ),
