@@ -12,6 +12,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   String _name = '';
   double _price = 0.0;
+  double _price2 = 0.0;
+  double _sum = 0.0;
 
   @override
   void initState() {
@@ -29,9 +31,32 @@ class _MyHomePageState extends State<MyHomePage> {
       if (response.statusCode == 200) {
         final jsonData = json.decode(response.body);
         // patientName = invoices[0]['patient']['name'];
+        // _price = jsonData[0]["items"][0]["price"];
+        // _price2 = jsonData[0]["items"][1]["price"];
+        // double sum = _price + _price2;
+
+        if (jsonData is List && jsonData.length > 0) {
+          final data = jsonData[0];
+          final items = data['items'];
+
+          double sum = 0.0;
+
+          for (var item in items) {
+            double price = item['price'];
+            sum += price;
+          }
+
+          print('Sum of prices: $sum');
+
+          setState(() {
+            _sum = sum;
+          });
+        } else {
+          print('No data found');
+        }
+
         setState(() {
           _name = jsonData[0]['patient']['name'];
-          _price = jsonData[0]["items"][0]["price"];
         });
       } else {
         // Handle the error
@@ -72,11 +97,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                       ),
                       TextSpan(
-                        text: ' kadi namba **** imetumia Shilingi ',
+                        text: ' kadi namba 217201651 imetumia Shilingi ',
                         style: TextStyle(color: Colors.black),
                       ),
                       TextSpan(
-                        text: '${_price}',
+                        text: '${_sum}',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.black,
