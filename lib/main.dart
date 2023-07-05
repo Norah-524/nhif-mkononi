@@ -10,6 +10,7 @@ import 'package:nhif_app/screens/profile.dart';
 import 'package:nhif_app/screens/splashscreen.dart';
 import 'package:nhif_app/screens/services.dart';
 import 'package:nhif_app/screens/visits.dart';
+import 'package:nhif_app/screens/visitlist.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.indigo[50]),
       initialRoute: '/',
       routes: {
+        //'/': (context) => MyExpandedPanel(),
         '/': (context) => Onboard(),
         '/home': (context) => Profile(),
         '/profile': (context) => PersonalProfile(),

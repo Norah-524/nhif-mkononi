@@ -3,6 +3,9 @@ import 'package:nhif_app/screens/home.dart';
 import 'package:nhif_app/screens/payment.dart';
 import 'package:nhif_app/screens/personalprofile.dart';
 import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+import '../models/demo_graphic.dart';
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
@@ -13,29 +16,56 @@ class Profile extends StatefulWidget {
 
 class _ProfileState extends State<Profile> {
   String _name = '';
+  bool isLoading = false;
+  @override
+  void initState() {
+    super.initState();
+    _fetchName().then((_) {
+      setState(() {
+        isLoading = false;
+      });
+    });
+  }
 
-  // Future<void> _fetchName() async {
-  //   try {
-  //     final response = await http.get(Uri.parse(
-  //         'https://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/billing/invoice?patient=305997de-13b1-4e0e-8ec6-37927c5c7993'));
-  //     print('Response status code: ${response.statusCode}');
-  //     print('Response headers: ${response.headers}');
-  //     print('Response body: ${response.body}');
-  //     if (response.statusCode == 200) {
-  //       final jsonData = json.decode(response.body);
-  //       // patientName = invoices[0]['patient']['name'];
-  //       setState(() {
-  //         _name = jsonData[0]['patient']['name'];
-  //       });
-  //     } else {
-  //       // Handle the error
-  //       print('Failed to load name');
-  //     }
-  //   } catch (e) {
-  //     // Handle the exception
-  //     print('Exception occurred: $e');
-  //   }
-  // }
+  Future<void> _fetchName() async {
+       setState(() {
+      isLoading = true;
+    });
+    final username = 'admin';
+    final password = 'Admin123';
+
+    final authBasic =
+        'Basic ${base64Encode(utf8.encode('$username:$password'))}';
+    var headers = {
+      'Authorization': authBasic,
+    };
+
+    try {
+      final response = await http.get(
+          Uri.parse(
+              'https://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient?identifier=LOY&v=full&limit=10'),
+          headers: headers);
+      print('Response status code: ${response.statusCode}');
+      print('Response headers: ${response.headers}');
+      print('Response body: ${response.body}');
+      if (response.statusCode == 200) {
+        final jsonData = json.decode(response.body);
+        // _name = jsonData['person']['display'];
+
+        final demoGraph = demoGraphicFromJson(response.body);
+        print("YOU GOT IT");
+        setState(() {
+          _name = demoGraph.results[0].person.display;
+        });
+      } else {
+        // Handle the error
+        print('Failed to load name');
+      }
+    } catch (e) {
+      // Handle the exception
+      print('Exception occurred: $e');
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -52,8 +82,8 @@ class _ProfileState extends State<Profile> {
           actions: [Icon(Icons.notifications)],
         ),
         drawer: const NavigationDrawer(),
-        body: Column(children: [
-          SizedBox(
+        body: isLoading? Center(child: CircularProgressIndicator()): Column(children: [
+          const SizedBox(
             height: 30,
           ),
           Padding(
@@ -75,9 +105,9 @@ class _ProfileState extends State<Profile> {
                             fontSize: 25.0),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 8, left: 40),
+                        padding: EdgeInsets.only(top: 8, left: 40),
                         child: Text(
-                          'Loy Sanford',
+                          _name,
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 20.0),
                         ),
@@ -93,7 +123,7 @@ class _ProfileState extends State<Profile> {
               ),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 20,
           ),
           Padding(

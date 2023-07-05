@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nhif_app/models/demo_graphic.dart';
 import 'personalprofile.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
 import 'package:http/http.dart' as http;
@@ -12,28 +13,48 @@ class PInfo extends StatefulWidget {
 }
 
 class _PInfoState extends State<PInfo> {
-  double _name = 0.0;
-  double _price = 0.0;
+  int _age = 0;
+  String gender = '';
+  bool isLoading = false;
 
   @override
   void initState() {
     super.initState();
-    _fetchName();
+    _fetchName().then((_) {
+      setState(() {
+        isLoading = false;
+      });
+    });
   }
 
   Future<void> _fetchName() async {
+    setState(() {
+      isLoading = true;
+    });
+    final username = 'admin';
+    final password = 'Admin123';
+
+    final authBasic =
+        'Basic ${base64Encode(utf8.encode('$username:$password'))}';
+    var headers = {
+      'Authorization': authBasic,
+    };
     try {
-      final response = await http.get(Uri.parse(
-          'https://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient?identifier=LOY&v=full&limit=10'));
+      final response = await http.get(
+          Uri.parse(
+              'https://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient?identifier=LOY&v=full&limit=10'),
+          headers: headers);
       print('Response status code: ${response.statusCode}');
       print('Response headers: ${response.headers}');
       print('Response body: ${response.body}');
       if (response.statusCode == 200) {
-        final jsonData = json.decode(response.body);
+        final demoGraph = demoGraphicFromJson(response.body);
+        print(demoGraph.results[0].person.display);
+        print(demoGraph.results[0].person.age);
         // patientName = invoices[0]['patient']['name'];
         setState(() {
-          _name = jsonData[0]['person']['age'];
-          _price = jsonData[0]["items"][0]["price"];
+          _age = demoGraph.results[0].person.age;
+          gender = demoGraph.results[0].person.gender;
         });
       } else {
         // Handle the error
@@ -87,7 +108,7 @@ class _PInfoState extends State<PInfo> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Column(
+        child: isLoading ? Center(child: CircularProgressIndicator()):Column(
           children: [
             Card(
               child: Padding(
@@ -98,7 +119,9 @@ class _PInfoState extends State<PInfo> {
                       height: 8,
                     ),
                     _buildSingleRow(
-                        title: 'Age', icon: Icons.numbers, data: '22'),
+                        title: 'Age',
+                        icon: Icons.numbers,
+                        data: _age.toString()),
                     SizedBox(
                       height: 8,
                     ),
@@ -107,9 +130,9 @@ class _PInfoState extends State<PInfo> {
                       height: 8,
                     ),
                     _buildSingleRow(
-                        title: 'Sex',
+                        title: 'Gender',
                         icon: Icons.settings_accessibility,
-                        data: 'Male'),
+                        data: gender),
                     SizedBox(
                       height: 8,
                     ),
