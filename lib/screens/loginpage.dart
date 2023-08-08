@@ -104,8 +104,8 @@ class _JobPostingState extends State<JobPosting> {
                                     height: 51,
                                     child: ElevatedButton(
                                         onPressed: () async {
-                                          //_login();
-                                          Navigator.pushNamed(context, '/home');
+                                          _login();
+                                       //Navigator.pushNamed(context, '/home');
                                         },
                                         style: ButtonStyle(
                                           shape: MaterialStateProperty.all<
@@ -161,7 +161,7 @@ class _JobPostingState extends State<JobPosting> {
     final Surname = _passwordController.text;
 
     final response = await http.post(
-      Uri.parse('http://192.168.9.105:8081/api/login'),
+      Uri.parse('http://192.168.239.1:8082/api/login'),
       body: {
         'CardNo': CardNo,
         'Surname': Surname,

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class BillsTable extends StatefulWidget {
+  static var addRow;
+
   const BillsTable({super.key});
 
   @override
@@ -8,6 +10,21 @@ class BillsTable extends StatefulWidget {
 }
 
 class _BillsTableState extends State<BillsTable> {
+    List<DataRow> rows = [];
+
+  void addRow() {
+    setState(() {
+      rows.add(
+       DataRow(cells: <DataCell>[
+       DataCell(Text('4')),
+              DataCell(Text('9988123427')),
+              DataCell(Text('50,400')),
+              DataCell(Text('Pending')),
+              DataCell(Text('24/6/2022')),
+       ])
+      );
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

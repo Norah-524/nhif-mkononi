@@ -53,7 +53,7 @@ class _PInfoState extends State<PInfo> {
         print(demoGraph.results[0].person.age);
         // patientName = invoices[0]['patient']['name'];
         setState(() {
-          _age = demoGraph.results[0].person.age;
+          _age = demoGraph.results[1].person.age;
           gender = demoGraph.results[0].person.gender;
         });
       } else {
@@ -121,7 +121,8 @@ class _PInfoState extends State<PInfo> {
                     _buildSingleRow(
                         title: 'Age',
                         icon: Icons.numbers,
-                        data: _age.toString()),
+                        data:
+                        _age.toString()),
                     SizedBox(
                       height: 8,
                     ),
@@ -132,7 +133,9 @@ class _PInfoState extends State<PInfo> {
                     _buildSingleRow(
                         title: 'Gender',
                         icon: Icons.settings_accessibility,
-                        data: gender),
+                        data:
+                        gender
+                        ),
                     SizedBox(
                       height: 8,
                     ),

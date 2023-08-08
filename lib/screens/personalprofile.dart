@@ -136,7 +136,7 @@ class PersonalProfileState extends State<PersonalProfile> {
           ),
           InkWell(
               onTap: () {
-                Navigator.pushNamed(context, '/home');
+                Navigator.pushNamed(context, '/');
               },
               child:
                   _buildSingleRow(title: 'Logout', icon: FeatherIcons.logOut)),

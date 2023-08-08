@@ -55,7 +55,7 @@ class _ProfileState extends State<Profile> {
         final demoGraph = demoGraphicFromJson(response.body);
         print("YOU GOT IT");
         setState(() {
-          _name = demoGraph.results[0].person.display;
+          _name = demoGraph.results[0].person.names[1].display;
         });
       } else {
         // Handle the error

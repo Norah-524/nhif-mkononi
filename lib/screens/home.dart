@@ -4,7 +4,6 @@ import 'package:nhif_app/screens/contactlist.dart';
 import 'package:nhif_app/screens/loginpage.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:nhif_app/screens/profile.dart';
-import 'package:nhif_app/screens/signuppage.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Onboard extends StatefulWidget {
