@@ -1,0 +1,4 @@
+#Thu Jul 06 15:59:31 EAT 2023
+base.0=/home/norah/Downloads/Projects/FYP-main/nhif_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

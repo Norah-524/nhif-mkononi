@@ -1,0 +1,1625 @@
+{
+    "results": [
+        {
+            "uuid": "8ee4109c-c080-4aa4-9350-039e09d81b10",
+            "display": "108106-6-00022/2023 - ASTA KIRUA",
+            "identifiers": [
+                {
+                    "display": "MRN = 108106-6-00022/2023",
+                    "uuid": "93178347-2e73-46c8-918b-e002af2b491e",
+                    "identifier": "108106-6-00022/2023",
+                    "identifierType": {
+                        "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e",
+                        "display": "MRN",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patientidentifiertype/26742868-a38c-4e6a-ac1d-ae283c414c2e"
+                            }
+                        ]
+                    },
+                    "location": {
+                        "uuid": "6351fcf4-e311-4a19-90f9-35667d99a8af",
+                        "display": "Registration Desk",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/6351fcf4-e311-4a19-90f9-35667d99a8af"
+                            }
+                        ]
+                    },
+                    "preferred": true,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/8ee4109c-c080-4aa4-9350-039e09d81b10/identifier/93178347-2e73-46c8-918b-e002af2b491e"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/8ee4109c-c080-4aa4-9350-039e09d81b10/identifier/93178347-2e73-46c8-918b-e002af2b491e?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                }
+            ],
+            "person": {
+                "uuid": "8ee4109c-c080-4aa4-9350-039e09d81b10",
+                "display": "ASTA KIRUA",
+                "gender": "M",
+                "age": 30,
+                "birthdate": "1993-04-09T00:00:00.000+0000",
+                "birthdateEstimated": false,
+                "dead": false,
+                "deathDate": null,
+                "causeOfDeath": null,
+                "preferredName": {
+                    "display": "ASTA KIRUA",
+                    "uuid": "7527f5a5-1ea5-48e4-8c36-fd56ea21574d",
+                    "givenName": "ASTA",
+                    "middleName": null,
+                    "familyName": "KIRUA",
+                    "familyName2": null,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/name/7527f5a5-1ea5-48e4-8c36-fd56ea21574d"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/name/7527f5a5-1ea5-48e4-8c36-fd56ea21574d?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                },
+                "preferredAddress": {
+                    "display": "Dar es Salaam",
+                    "uuid": "fe324289-6e10-43b9-8a65-83674305528c",
+                    "preferred": true,
+                    "address1": "Dar es Salaam",
+                    "address2": null,
+                    "cityVillage": "Mwenge Village",
+                    "stateProvince": "Kinondoni",
+                    "country": null,
+                    "postalCode": null,
+                    "countyDistrict": null,
+                    "address3": null,
+                    "address4": null,
+                    "address5": null,
+                    "address6": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "voided": false,
+                    "address7": null,
+                    "address8": null,
+                    "address9": null,
+                    "address10": null,
+                    "address11": null,
+                    "address12": null,
+                    "address13": null,
+                    "address14": null,
+                    "address15": null,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/address/fe324289-6e10-43b9-8a65-83674305528c"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/address/fe324289-6e10-43b9-8a65-83674305528c?v=full"
+                        }
+                    ],
+                    "resourceVersion": "2.0"
+                },
+                "names": [
+                    {
+                        "display": "ASTA KIRUA",
+                        "uuid": "7527f5a5-1ea5-48e4-8c36-fd56ea21574d",
+                        "givenName": "ASTA",
+                        "middleName": null,
+                        "familyName": "KIRUA",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/name/7527f5a5-1ea5-48e4-8c36-fd56ea21574d"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/name/7527f5a5-1ea5-48e4-8c36-fd56ea21574d?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    },
+                    {
+                        "display": "LOY SANFORD",
+                        "uuid": "ad21fa50-bb0a-46ce-a5d6-54e4d4e1a8d1",
+                        "givenName": "LOY",
+                        "middleName": null,
+                        "familyName": "SANFORD",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/name/ad21fa50-bb0a-46ce-a5d6-54e4d4e1a8d1"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/name/ad21fa50-bb0a-46ce-a5d6-54e4d4e1a8d1?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "fe324289-6e10-43b9-8a65-83674305528c",
+                        "preferred": true,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Mwenge Village",
+                        "stateProvince": "Kinondoni",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": null,
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/address/fe324289-6e10-43b9-8a65-83674305528c"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/address/fe324289-6e10-43b9-8a65-83674305528c?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    },
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "49502c87-69fd-4232-8632-4d1dce1d512c",
+                        "preferred": false,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Mwenge Village",
+                        "stateProvince": "Kinondoni",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": "Kijitonyama Ward",
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/address/49502c87-69fd-4232-8632-4d1dce1d512c"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/address/49502c87-69fd-4232-8632-4d1dce1d512c?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    }
+                ],
+                "attributes": [
+                    {
+                        "display": "phone = 0798765439",
+                        "uuid": "6dad7f2b-5720-45af-9aa8-bf1bf1ab2f00",
+                        "value": "0798765439",
+                        "attributeType": {
+                            "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+                            "display": "phone",
+                            "links": [
+                                {
+                                    "rel": "self",
+                                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+                                }
+                            ]
+                        },
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/attribute/6dad7f2b-5720-45af-9aa8-bf1bf1ab2f00"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10/attribute/6dad7f2b-5720-45af-9aa8-bf1bf1ab2f00?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "voided": false,
+                "auditInfo": {
+                    "creator": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateCreated": "2023-05-11T08:09:26.000+0000",
+                    "changedBy": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateChanged": "2023-05-12T04:02:32.000+0000"
+                },
+                "birthtime": null,
+                "deathdateEstimated": false,
+                "causeOfDeathNonCoded": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/8ee4109c-c080-4aa4-9350-039e09d81b10"
+                    }
+                ],
+                "resourceVersion": "1.11"
+            },
+            "voided": false,
+            "auditInfo": {
+                "creator": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateCreated": "2023-05-11T08:09:26.000+0000",
+                "changedBy": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateChanged": "2023-05-12T04:02:32.000+0000"
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/8ee4109c-c080-4aa4-9350-039e09d81b10"
+                }
+            ],
+            "resourceVersion": "1.8"
+        },
+        {
+            "uuid": "0dca183f-de94-43cf-95cd-7203b4e5e368",
+            "display": "108106-6-00025/2023 - HELLEN STANSLAUS",
+            "identifiers": [
+                {
+                    "display": "MRN = 108106-6-00025/2023",
+                    "uuid": "21db0f8d-31e5-4b20-94f9-97cd7bac387e",
+                    "identifier": "108106-6-00025/2023",
+                    "identifierType": {
+                        "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e",
+                        "display": "MRN",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patientidentifiertype/26742868-a38c-4e6a-ac1d-ae283c414c2e"
+                            }
+                        ]
+                    },
+                    "location": {
+                        "uuid": "6351fcf4-e311-4a19-90f9-35667d99a8af",
+                        "display": "Registration Desk",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/6351fcf4-e311-4a19-90f9-35667d99a8af"
+                            }
+                        ]
+                    },
+                    "preferred": true,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/0dca183f-de94-43cf-95cd-7203b4e5e368/identifier/21db0f8d-31e5-4b20-94f9-97cd7bac387e"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/0dca183f-de94-43cf-95cd-7203b4e5e368/identifier/21db0f8d-31e5-4b20-94f9-97cd7bac387e?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                }
+            ],
+            "person": {
+                "uuid": "0dca183f-de94-43cf-95cd-7203b4e5e368",
+                "display": "HELLEN STANSLAUS",
+                "gender": "F",
+                "age": 45,
+                "birthdate": "1978-05-10T00:00:00.000+0000",
+                "birthdateEstimated": false,
+                "dead": false,
+                "deathDate": null,
+                "causeOfDeath": null,
+                "preferredName": {
+                    "display": "HELLEN STANSLAUS",
+                    "uuid": "2d1676d4-c68d-4387-9af8-7529395a11ac",
+                    "givenName": "HELLEN",
+                    "middleName": null,
+                    "familyName": "STANSLAUS",
+                    "familyName2": null,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/name/2d1676d4-c68d-4387-9af8-7529395a11ac"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/name/2d1676d4-c68d-4387-9af8-7529395a11ac?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                },
+                "preferredAddress": {
+                    "display": "Dar es Salaam",
+                    "uuid": "ff51eb51-557f-44a1-9ec3-1dd33d00a46d",
+                    "preferred": true,
+                    "address1": "Dar es Salaam",
+                    "address2": null,
+                    "cityVillage": "Tegeta a Village",
+                    "stateProvince": "Ubungo",
+                    "country": null,
+                    "postalCode": null,
+                    "countyDistrict": null,
+                    "address3": null,
+                    "address4": null,
+                    "address5": null,
+                    "address6": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "voided": false,
+                    "address7": null,
+                    "address8": null,
+                    "address9": null,
+                    "address10": null,
+                    "address11": null,
+                    "address12": null,
+                    "address13": null,
+                    "address14": null,
+                    "address15": null,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/address/ff51eb51-557f-44a1-9ec3-1dd33d00a46d"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/address/ff51eb51-557f-44a1-9ec3-1dd33d00a46d?v=full"
+                        }
+                    ],
+                    "resourceVersion": "2.0"
+                },
+                "names": [
+                    {
+                        "display": "HELLEN STANSLAUS",
+                        "uuid": "2d1676d4-c68d-4387-9af8-7529395a11ac",
+                        "givenName": "HELLEN",
+                        "middleName": null,
+                        "familyName": "STANSLAUS",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/name/2d1676d4-c68d-4387-9af8-7529395a11ac"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/name/2d1676d4-c68d-4387-9af8-7529395a11ac?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    },
+                    {
+                        "display": "LOY SANFORD",
+                        "uuid": "16218b15-07af-4045-b199-b5cad4f6a3c7",
+                        "givenName": "LOY",
+                        "middleName": null,
+                        "familyName": "SANFORD",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/name/16218b15-07af-4045-b199-b5cad4f6a3c7"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/name/16218b15-07af-4045-b199-b5cad4f6a3c7?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "ff51eb51-557f-44a1-9ec3-1dd33d00a46d",
+                        "preferred": true,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Tegeta a Village",
+                        "stateProvince": "Ubungo",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": null,
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/address/ff51eb51-557f-44a1-9ec3-1dd33d00a46d"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/address/ff51eb51-557f-44a1-9ec3-1dd33d00a46d?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    },
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "ea9d0459-598a-4126-8dba-433fa2f3dc8a",
+                        "preferred": false,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Tegeta a Village",
+                        "stateProvince": "Ubungo",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": "Goba Ward",
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/address/ea9d0459-598a-4126-8dba-433fa2f3dc8a"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/address/ea9d0459-598a-4126-8dba-433fa2f3dc8a?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    }
+                ],
+                "attributes": [
+                    {
+                        "display": "maritalStatus = Single",
+                        "uuid": "c53bc059-9892-478e-961d-ea131686e776",
+                        "value": "Single",
+                        "attributeType": {
+                            "uuid": "0eeecb5a-b034-431f-98ec-d2b672719495",
+                            "display": "maritalStatus",
+                            "links": [
+                                {
+                                    "rel": "self",
+                                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/personattributetype/0eeecb5a-b034-431f-98ec-d2b672719495"
+                                }
+                            ]
+                        },
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/attribute/c53bc059-9892-478e-961d-ea131686e776"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/attribute/c53bc059-9892-478e-961d-ea131686e776?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    },
+                    {
+                        "display": "phone = 0723456786",
+                        "uuid": "b9c9f02e-1c5f-44f7-b963-e52405c8057c",
+                        "value": "0723456786",
+                        "attributeType": {
+                            "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+                            "display": "phone",
+                            "links": [
+                                {
+                                    "rel": "self",
+                                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+                                }
+                            ]
+                        },
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/attribute/b9c9f02e-1c5f-44f7-b963-e52405c8057c"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/attribute/b9c9f02e-1c5f-44f7-b963-e52405c8057c?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    },
+                    {
+                        "display": "education = None",
+                        "uuid": "b0bd0630-eaca-4d04-bc4a-db5469a864e5",
+                        "value": "None",
+                        "attributeType": {
+                            "uuid": "95f62fcb-6ce4-4578-a419-66c7d2ebfc40",
+                            "display": "education",
+                            "links": [
+                                {
+                                    "rel": "self",
+                                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/personattributetype/95f62fcb-6ce4-4578-a419-66c7d2ebfc40"
+                                }
+                            ]
+                        },
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/attribute/b0bd0630-eaca-4d04-bc4a-db5469a864e5"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368/attribute/b0bd0630-eaca-4d04-bc4a-db5469a864e5?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "voided": false,
+                "auditInfo": {
+                    "creator": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateCreated": "2023-05-11T08:17:44.000+0000",
+                    "changedBy": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateChanged": "2023-05-12T04:05:30.000+0000"
+                },
+                "birthtime": null,
+                "deathdateEstimated": false,
+                "causeOfDeathNonCoded": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/0dca183f-de94-43cf-95cd-7203b4e5e368"
+                    }
+                ],
+                "resourceVersion": "1.11"
+            },
+            "voided": false,
+            "auditInfo": {
+                "creator": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateCreated": "2023-05-11T08:17:44.000+0000",
+                "changedBy": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateChanged": "2023-05-12T04:05:30.000+0000"
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/0dca183f-de94-43cf-95cd-7203b4e5e368"
+                }
+            ],
+            "resourceVersion": "1.8"
+        },
+        {
+            "uuid": "305997de-13b1-4e0e-8ec6-37927c5c7993",
+            "display": "108106-6-00020/2023 - LOY SANFORD",
+            "identifiers": [
+                {
+                    "display": "MRN = 108106-6-00020/2023",
+                    "uuid": "e25a185d-bc4b-49d3-8f3e-adb2750f45f6",
+                    "identifier": "108106-6-00020/2023",
+                    "identifierType": {
+                        "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e",
+                        "display": "MRN",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patientidentifiertype/26742868-a38c-4e6a-ac1d-ae283c414c2e"
+                            }
+                        ]
+                    },
+                    "location": {
+                        "uuid": "6351fcf4-e311-4a19-90f9-35667d99a8af",
+                        "display": "Registration Desk",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/6351fcf4-e311-4a19-90f9-35667d99a8af"
+                            }
+                        ]
+                    },
+                    "preferred": true,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/305997de-13b1-4e0e-8ec6-37927c5c7993/identifier/e25a185d-bc4b-49d3-8f3e-adb2750f45f6"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/305997de-13b1-4e0e-8ec6-37927c5c7993/identifier/e25a185d-bc4b-49d3-8f3e-adb2750f45f6?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                }
+            ],
+            "person": {
+                "uuid": "305997de-13b1-4e0e-8ec6-37927c5c7993",
+                "display": "LOY SANFORD",
+                "gender": "M",
+                "age": 22,
+                "birthdate": "2001-05-11T00:00:00.000+0000",
+                "birthdateEstimated": false,
+                "dead": false,
+                "deathDate": null,
+                "causeOfDeath": null,
+                "preferredName": {
+                    "display": "LOY SANFORD",
+                    "uuid": "214a5ff8-d4f2-45bf-94e3-400ffaad7984",
+                    "givenName": "LOY",
+                    "middleName": null,
+                    "familyName": "SANFORD",
+                    "familyName2": null,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/name/214a5ff8-d4f2-45bf-94e3-400ffaad7984"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/name/214a5ff8-d4f2-45bf-94e3-400ffaad7984?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                },
+                "preferredAddress": null,
+                "names": [
+                    {
+                        "display": "LOY SANFORD",
+                        "uuid": "214a5ff8-d4f2-45bf-94e3-400ffaad7984",
+                        "givenName": "LOY",
+                        "middleName": null,
+                        "familyName": "SANFORD",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/name/214a5ff8-d4f2-45bf-94e3-400ffaad7984"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/name/214a5ff8-d4f2-45bf-94e3-400ffaad7984?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    },
+                    {
+                        "display": "CATHERINE JOHN",
+                        "uuid": "aefe25b0-404d-48a2-b15a-afa1b7439eba",
+                        "givenName": "CATHERINE",
+                        "middleName": null,
+                        "familyName": "JOHN",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/name/aefe25b0-404d-48a2-b15a-afa1b7439eba"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/name/aefe25b0-404d-48a2-b15a-afa1b7439eba?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "addresses": [],
+                "attributes": [
+                    {
+                        "display": "phone = 0723456789",
+                        "uuid": "23ae2abc-cad9-428e-9e70-bf77eb778792",
+                        "value": "0723456789",
+                        "attributeType": {
+                            "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+                            "display": "phone",
+                            "links": [
+                                {
+                                    "rel": "self",
+                                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+                                }
+                            ]
+                        },
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/attribute/23ae2abc-cad9-428e-9e70-bf77eb778792"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993/attribute/23ae2abc-cad9-428e-9e70-bf77eb778792?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "voided": false,
+                "auditInfo": {
+                    "creator": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateCreated": "2023-05-10T08:49:14.000+0000",
+                    "changedBy": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateChanged": "2023-05-11T08:22:03.000+0000"
+                },
+                "birthtime": null,
+                "deathdateEstimated": false,
+                "causeOfDeathNonCoded": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/305997de-13b1-4e0e-8ec6-37927c5c7993"
+                    }
+                ],
+                "resourceVersion": "1.11"
+            },
+            "voided": false,
+            "auditInfo": {
+                "creator": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateCreated": "2023-05-10T08:49:14.000+0000",
+                "changedBy": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateChanged": "2023-05-11T08:22:03.000+0000"
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/305997de-13b1-4e0e-8ec6-37927c5c7993"
+                }
+            ],
+            "resourceVersion": "1.8"
+        },
+        {
+            "uuid": "6ccd5e88-9010-47ed-aaa0-625e1e1b41f6",
+            "display": "108106-6-00023/2023 - SARAH JOHN",
+            "identifiers": [
+                {
+                    "display": "MRN = 108106-6-00023/2023",
+                    "uuid": "1225ae48-265e-4c34-bc2d-fdb85f77fce6",
+                    "identifier": "108106-6-00023/2023",
+                    "identifierType": {
+                        "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e",
+                        "display": "MRN",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patientidentifiertype/26742868-a38c-4e6a-ac1d-ae283c414c2e"
+                            }
+                        ]
+                    },
+                    "location": {
+                        "uuid": "6351fcf4-e311-4a19-90f9-35667d99a8af",
+                        "display": "Registration Desk",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/6351fcf4-e311-4a19-90f9-35667d99a8af"
+                            }
+                        ]
+                    },
+                    "preferred": true,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/identifier/1225ae48-265e-4c34-bc2d-fdb85f77fce6"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/identifier/1225ae48-265e-4c34-bc2d-fdb85f77fce6?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                }
+            ],
+            "person": {
+                "uuid": "6ccd5e88-9010-47ed-aaa0-625e1e1b41f6",
+                "display": "SARAH JOHN",
+                "gender": "F",
+                "age": 30,
+                "birthdate": "1993-04-09T00:00:00.000+0000",
+                "birthdateEstimated": false,
+                "dead": false,
+                "deathDate": null,
+                "causeOfDeath": null,
+                "preferredName": {
+                    "display": "SARAH JOHN",
+                    "uuid": "5a336f61-14bf-4b48-b9f3-602e8ba7e094",
+                    "givenName": "SARAH",
+                    "middleName": null,
+                    "familyName": "JOHN",
+                    "familyName2": null,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/name/5a336f61-14bf-4b48-b9f3-602e8ba7e094"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/name/5a336f61-14bf-4b48-b9f3-602e8ba7e094?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                },
+                "preferredAddress": {
+                    "display": "Dar es Salaam",
+                    "uuid": "ea1cb91d-b082-4901-bd6a-ab90d3d034af",
+                    "preferred": true,
+                    "address1": "Dar es Salaam",
+                    "address2": null,
+                    "cityVillage": "Mwenge Village",
+                    "stateProvince": "Kinondoni",
+                    "country": null,
+                    "postalCode": null,
+                    "countyDistrict": null,
+                    "address3": null,
+                    "address4": null,
+                    "address5": null,
+                    "address6": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "voided": false,
+                    "address7": null,
+                    "address8": null,
+                    "address9": null,
+                    "address10": null,
+                    "address11": null,
+                    "address12": null,
+                    "address13": null,
+                    "address14": null,
+                    "address15": null,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/address/ea1cb91d-b082-4901-bd6a-ab90d3d034af"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/address/ea1cb91d-b082-4901-bd6a-ab90d3d034af?v=full"
+                        }
+                    ],
+                    "resourceVersion": "2.0"
+                },
+                "names": [
+                    {
+                        "display": "SARAH JOHN",
+                        "uuid": "5a336f61-14bf-4b48-b9f3-602e8ba7e094",
+                        "givenName": "SARAH",
+                        "middleName": null,
+                        "familyName": "JOHN",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/name/5a336f61-14bf-4b48-b9f3-602e8ba7e094"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/name/5a336f61-14bf-4b48-b9f3-602e8ba7e094?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    },
+                    {
+                        "display": "LOY SANFORD",
+                        "uuid": "fdb58b94-c226-4230-9470-10636a5d0257",
+                        "givenName": "LOY",
+                        "middleName": null,
+                        "familyName": "SANFORD",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/name/fdb58b94-c226-4230-9470-10636a5d0257"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/name/fdb58b94-c226-4230-9470-10636a5d0257?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "ea1cb91d-b082-4901-bd6a-ab90d3d034af",
+                        "preferred": true,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Mwenge Village",
+                        "stateProvince": "Kinondoni",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": null,
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/address/ea1cb91d-b082-4901-bd6a-ab90d3d034af"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/address/ea1cb91d-b082-4901-bd6a-ab90d3d034af?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    },
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "26c9296b-6477-486a-aae7-d2fd54669117",
+                        "preferred": false,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Mwenge Village",
+                        "stateProvince": "Kinondoni",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": "Kijitonyama Ward",
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/address/26c9296b-6477-486a-aae7-d2fd54669117"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/address/26c9296b-6477-486a-aae7-d2fd54669117?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    }
+                ],
+                "attributes": [
+                    {
+                        "display": "phone = 0798765439",
+                        "uuid": "eb0d5779-cdf7-4c7b-8458-e3dda460eac3",
+                        "value": "0798765439",
+                        "attributeType": {
+                            "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+                            "display": "phone",
+                            "links": [
+                                {
+                                    "rel": "self",
+                                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+                                }
+                            ]
+                        },
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/attribute/eb0d5779-cdf7-4c7b-8458-e3dda460eac3"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6/attribute/eb0d5779-cdf7-4c7b-8458-e3dda460eac3?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "voided": false,
+                "auditInfo": {
+                    "creator": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateCreated": "2023-05-11T08:09:43.000+0000",
+                    "changedBy": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateChanged": "2023-05-12T04:03:48.000+0000"
+                },
+                "birthtime": null,
+                "deathdateEstimated": false,
+                "causeOfDeathNonCoded": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6"
+                    }
+                ],
+                "resourceVersion": "1.11"
+            },
+            "voided": false,
+            "auditInfo": {
+                "creator": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateCreated": "2023-05-11T08:09:43.000+0000",
+                "changedBy": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateChanged": "2023-05-12T04:03:48.000+0000"
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/6ccd5e88-9010-47ed-aaa0-625e1e1b41f6"
+                }
+            ],
+            "resourceVersion": "1.8"
+        },
+        {
+            "uuid": "022c88d9-11c8-4400-932b-cb19ed8ade7e",
+            "display": "108106-6-00024/2023 - GEORGE HARRY",
+            "identifiers": [
+                {
+                    "display": "MRN = 108106-6-00024/2023",
+                    "uuid": "373c1ba8-161b-44cb-ab62-b6f61a34210a",
+                    "identifier": "108106-6-00024/2023",
+                    "identifierType": {
+                        "uuid": "26742868-a38c-4e6a-ac1d-ae283c414c2e",
+                        "display": "MRN",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patientidentifiertype/26742868-a38c-4e6a-ac1d-ae283c414c2e"
+                            }
+                        ]
+                    },
+                    "location": {
+                        "uuid": "6351fcf4-e311-4a19-90f9-35667d99a8af",
+                        "display": "Registration Desk",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/location/6351fcf4-e311-4a19-90f9-35667d99a8af"
+                            }
+                        ]
+                    },
+                    "preferred": true,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/022c88d9-11c8-4400-932b-cb19ed8ade7e/identifier/373c1ba8-161b-44cb-ab62-b6f61a34210a"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/022c88d9-11c8-4400-932b-cb19ed8ade7e/identifier/373c1ba8-161b-44cb-ab62-b6f61a34210a?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                }
+            ],
+            "person": {
+                "uuid": "022c88d9-11c8-4400-932b-cb19ed8ade7e",
+                "display": "GEORGE HARRY",
+                "gender": "M",
+                "age": 30,
+                "birthdate": "1993-04-09T00:00:00.000+0000",
+                "birthdateEstimated": false,
+                "dead": false,
+                "deathDate": null,
+                "causeOfDeath": null,
+                "preferredName": {
+                    "display": "GEORGE HARRY",
+                    "uuid": "a5b8f1e8-b600-4e31-9748-3c871eec9ff4",
+                    "givenName": "GEORGE",
+                    "middleName": null,
+                    "familyName": "HARRY",
+                    "familyName2": null,
+                    "voided": false,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/name/a5b8f1e8-b600-4e31-9748-3c871eec9ff4"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/name/a5b8f1e8-b600-4e31-9748-3c871eec9ff4?v=full"
+                        }
+                    ],
+                    "resourceVersion": "1.8"
+                },
+                "preferredAddress": {
+                    "display": "Dar es Salaam",
+                    "uuid": "ebefdb1d-2b90-49d3-b6d0-44059b409b43",
+                    "preferred": true,
+                    "address1": "Dar es Salaam",
+                    "address2": null,
+                    "cityVillage": "Mwenge Village",
+                    "stateProvince": "Kinondoni",
+                    "country": null,
+                    "postalCode": null,
+                    "countyDistrict": null,
+                    "address3": null,
+                    "address4": null,
+                    "address5": null,
+                    "address6": null,
+                    "startDate": null,
+                    "endDate": null,
+                    "latitude": null,
+                    "longitude": null,
+                    "voided": false,
+                    "address7": null,
+                    "address8": null,
+                    "address9": null,
+                    "address10": null,
+                    "address11": null,
+                    "address12": null,
+                    "address13": null,
+                    "address14": null,
+                    "address15": null,
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/address/ebefdb1d-2b90-49d3-b6d0-44059b409b43"
+                        },
+                        {
+                            "rel": "full",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/address/ebefdb1d-2b90-49d3-b6d0-44059b409b43?v=full"
+                        }
+                    ],
+                    "resourceVersion": "2.0"
+                },
+                "names": [
+                    {
+                        "display": "GEORGE HARRY",
+                        "uuid": "a5b8f1e8-b600-4e31-9748-3c871eec9ff4",
+                        "givenName": "GEORGE",
+                        "middleName": null,
+                        "familyName": "HARRY",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/name/a5b8f1e8-b600-4e31-9748-3c871eec9ff4"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/name/a5b8f1e8-b600-4e31-9748-3c871eec9ff4?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    },
+                    {
+                        "display": "LOY SANFORD",
+                        "uuid": "9e24f22c-a152-4ee2-988c-aa3c4ef56023",
+                        "givenName": "LOY",
+                        "middleName": null,
+                        "familyName": "SANFORD",
+                        "familyName2": null,
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/name/9e24f22c-a152-4ee2-988c-aa3c4ef56023"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/name/9e24f22c-a152-4ee2-988c-aa3c4ef56023?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "ebefdb1d-2b90-49d3-b6d0-44059b409b43",
+                        "preferred": true,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Mwenge Village",
+                        "stateProvince": "Kinondoni",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": null,
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/address/ebefdb1d-2b90-49d3-b6d0-44059b409b43"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/address/ebefdb1d-2b90-49d3-b6d0-44059b409b43?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    },
+                    {
+                        "display": "Dar es Salaam",
+                        "uuid": "c29dfc54-8fa4-41b5-8b14-7c1af2139300",
+                        "preferred": false,
+                        "address1": "Dar es Salaam",
+                        "address2": null,
+                        "cityVillage": "Mwenge Village",
+                        "stateProvince": "Kinondoni",
+                        "country": null,
+                        "postalCode": null,
+                        "countyDistrict": "Kijitonyama Ward",
+                        "address3": null,
+                        "address4": null,
+                        "address5": null,
+                        "address6": null,
+                        "startDate": null,
+                        "endDate": null,
+                        "latitude": null,
+                        "longitude": null,
+                        "voided": false,
+                        "address7": null,
+                        "address8": null,
+                        "address9": null,
+                        "address10": null,
+                        "address11": null,
+                        "address12": null,
+                        "address13": null,
+                        "address14": null,
+                        "address15": null,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/address/c29dfc54-8fa4-41b5-8b14-7c1af2139300"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/address/c29dfc54-8fa4-41b5-8b14-7c1af2139300?v=full"
+                            }
+                        ],
+                        "resourceVersion": "2.0"
+                    }
+                ],
+                "attributes": [
+                    {
+                        "display": "phone = 0798765478",
+                        "uuid": "bed1a000-ab9e-4751-a218-9498335ff2a9",
+                        "value": "0798765478",
+                        "attributeType": {
+                            "uuid": "aeb3a16c-f5b6-4848-aa51-d7e3146886d6",
+                            "display": "phone",
+                            "links": [
+                                {
+                                    "rel": "self",
+                                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/personattributetype/aeb3a16c-f5b6-4848-aa51-d7e3146886d6"
+                                }
+                            ]
+                        },
+                        "voided": false,
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/attribute/bed1a000-ab9e-4751-a218-9498335ff2a9"
+                            },
+                            {
+                                "rel": "full",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e/attribute/bed1a000-ab9e-4751-a218-9498335ff2a9?v=full"
+                            }
+                        ],
+                        "resourceVersion": "1.8"
+                    }
+                ],
+                "voided": false,
+                "auditInfo": {
+                    "creator": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateCreated": "2023-05-11T08:14:03.000+0000",
+                    "changedBy": {
+                        "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                        "display": "admin",
+                        "links": [
+                            {
+                                "rel": "self",
+                                "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                            }
+                        ]
+                    },
+                    "dateChanged": "2023-05-12T04:04:39.000+0000"
+                },
+                "birthtime": null,
+                "deathdateEstimated": false,
+                "causeOfDeathNonCoded": null,
+                "links": [
+                    {
+                        "rel": "self",
+                        "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/person/022c88d9-11c8-4400-932b-cb19ed8ade7e"
+                    }
+                ],
+                "resourceVersion": "1.11"
+            },
+            "voided": false,
+            "auditInfo": {
+                "creator": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateCreated": "2023-05-11T08:14:03.000+0000",
+                "changedBy": {
+                    "uuid": "84ee6acb-1e75-11eb-8bc7-0242c0a85003",
+                    "display": "admin",
+                    "links": [
+                        {
+                            "rel": "self",
+                            "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/user/84ee6acb-1e75-11eb-8bc7-0242c0a85003"
+                        }
+                    ]
+                },
+                "dateChanged": "2023-05-12T04:04:39.000+0000"
+            },
+            "links": [
+                {
+                    "rel": "self",
+                    "uri": "http://icare-student.dhis2.udsm.ac.tz/openmrs/ws/rest/v1/patient/022c88d9-11c8-4400-932b-cb19ed8ade7e"
+                }
+            ],
+            "resourceVersion": "1.8"
+        }
+    ]
+}
